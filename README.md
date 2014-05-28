@@ -19,7 +19,7 @@ Please read documentation relative to the version you are using:
 
 * [2.2.0-SNAPSHOT](https://github.com/elasticsearch/elasticsearch-analysis-smartcn/blob/es-1.2/README.md)
 
-The plugin includes the `smart_chinese` analyzer, `smartcn_sentence` tokenizer, and `smartcn_word` token filter.
+The plugin includes the `smartcn` analyzer, `smartcn_sentence` tokenizer, and `smartcn_word` token filter.
 
 License
 -------
