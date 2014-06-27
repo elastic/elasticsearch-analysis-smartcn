@@ -13,10 +13,12 @@ In order to install the plugin, simply run: `bin/plugin -install elasticsearch/e
 
 | Smart Chinese Analysis Plugin |    elasticsearch    | Release date |
 |-------------------------------|---------------------|:------------:|
+| 2.2.1-SNAPSHOT                | 1.2.0 -> 1.2        |  XXXX-XX-XX  |
 | 2.2.0                         | 1.2.0 -> 1.2        |  2014-06-27  |
 
 Please read documentation relative to the version you are using:
 
+* [2.2.1-SNAPSHOT](https://github.com/elasticsearch/elasticsearch-analysis-smartcn/blob/es-1.2/README.md)
 * [2.2.0](https://github.com/elasticsearch/elasticsearch-analysis-smartcn/blob/v2.2.0/README.md)
 
 The plugin includes the `smartcn` analyzer and `smartcn_tokenizer` tokenizer.
