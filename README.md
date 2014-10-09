@@ -3,7 +3,7 @@ Smart Chinese Analysis for Elasticsearch
 
 The Smart Chinese Analysis plugin integrates Lucene Smart Chinese analysis module into elasticsearch.
 
-## Version 2.4.1-SNAPSHOT for Elasticsearch: 1.4
+## Version 2.4.1 for Elasticsearch: 1.4
 
 If you are looking for another version documentation, please refer to the 
 [compatibility matrix](http://github.com/elasticsearch/elasticsearch-analysis-smartcn#smart-chinese-analysis-for-elasticsearch).
