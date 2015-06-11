@@ -13,7 +13,8 @@ bin/plugin install elasticsearch/elasticsearch-analysis-smartcn/2.6.0
 | elasticsearch |  Smart Chinese Analysis Plugin  |   Docs     |  
 |---------------|-----------------------|------------|
 | master        |  Build from source    | See below  |
-| es-1.x        |  Build from source    | [2.6.0-SNAPSHOT](https://github.com/elastic/elasticsearch-analysis-smartcn/tree/es-1.x/#version-260-snapshot-for-elasticsearch-1x)  |
+| es-1.x        |  Build from source    | [2.7.0-SNAPSHOT](https://github.com/elastic/elasticsearch-analysis-smartcn/tree/es-1.x/#version-270-snapshot-for-elasticsearch-1x)  |
+| es-1.6        |  2.6.0                | [2.6.0](https://github.com/elastic/elasticsearch-analysis-smartcn/tree/v2.6.0/#version-260-for-elasticsearch-16)  |
 | es-1.5        |  2.5.0                | [2.5.0](https://github.com/elastic/elasticsearch-analysis-smartcn/tree/v2.5.0/#version-250-for-elasticsearch-15)                  |
 |    es-1.4              |     2.4.4         | [2.4.4](https://github.com/elasticsearch/elasticsearch-analysis-smartcn/tree/v2.4.4/#version-244-for-elasticsearch-14)                  |
 | < 1.4.5       |  2.4.3                | [2.4.3](https://github.com/elastic/elasticsearch-analysis-smartcn/tree/v2.4.3/#version-243-for-elasticsearch-14)                  |
