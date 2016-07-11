@@ -1,19 +1,12 @@
-**IMPORTANT**: this project now moved to [elasticsearch repository](https://github.com/elastic/elasticsearch/tree/master/plugins/analysis-smartcn).
+**IMPORTANT: Project MOVED!**
 
-Only important bug fixes will be merged here. If you have a question about the plugin, please use [discuss.elastic.co](https://discuss.elastic.co/c/elasticsearch). If you want to report a bug, please use [elasticsearch repository](https://github.com/elastic/elasticsearch/issues/new).
+From elasticsearch 2.0 you need to look at the following links:
 
----
+* [Source code](https://github.com/elastic/elasticsearch/tree/master/plugins/).
+* [Documentation](https://www.elastic.co/guide/en/elasticsearch/plugins/current/index.html).
+* [Question? Bugs?](https://discuss.elastic.co/c/elasticsearch)
 
-Smart Chinese Analysis for Elasticsearch
-==================================
-
-The Smart Chinese Analysis plugin integrates Lucene Smart Chinese analysis module into elasticsearch.
-
-In order to install the plugin, simply run:
-
-```sh
-bin/plugin install elasticsearch/elasticsearch-analysis-smartcn/2.7.0
-```
+For older versions, look at the following table:
 
 
 | elasticsearch |  Smart Chinese Analysis Plugin  |   Docs     |
@@ -31,19 +24,6 @@ bin/plugin install elasticsearch/elasticsearch-analysis-smartcn/2.7.0
 | es-1.0        |  2.0.0                | [2.0.0](https://github.com/elastic/elasticsearch-analysis-smartcn/tree/v2.0.0/#smart-chinese-analysis-for-elasticsearch)  |
 | es-0.90       |  1.8.0                | [1.8.0](https://github.com/elastic/elasticsearch-analysis-smartcn/tree/v1.8.0/#smart-chinese-analysis-for-elasticsearch)  |
 
-To build a `SNAPSHOT` version, you need to build it with Maven:
-
-```bash
-mvn clean install
-plugin --install analysis-smartcn \
-       --url file:target/releases/elasticsearch-analysis-smartcn-X.X.X-SNAPSHOT.zip
-```
-
-## User guide
-
-The plugin includes the `smartcn` analyzer and `smartcn_tokenizer` tokenizer.
-
- Note that `smartcn_word` token filter and `smartcn_sentence` have been deprecated.
 
 License
 -------
